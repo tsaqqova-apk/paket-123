@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body onload="awalmula()" id="utama" class="bodydaftarisi">
+
+<div class="header" id="headerid">
+<div class="judulaplikasi">
+<b>
+الأصول الستة
+</b>
+</div>
+<div class="subjudulaplikasi">
+الإمام المجدد محمد بن عبد الوهاب
+</div>
+</div>
+
+
+<div id="tempattampil2" hidden></div>
+<textarea id="sumber2" hidden>
+<style>#tombolterangid { display: block; } #tombolgelapid { display: none; } #utama { background: #161616; } #daftarisi > li { color:#c6ac91; } #daftarisi > li > a { color: #9e9e9e; } #daftarisi > li > a:active {color: #9e9e9e;} #daftarisi > li > a:hover {color: #9e9e9e;} #daftarisi > li > a:visited {color: #9e9e9e;} #idbodyindex2 {background: #161616} #naskaharabid {background: #0f0f0f;color: #f0f0f0;} #naskahid {background: #161616; color: #9e9e9e;} #naskaharabcontohid {background: #161616; color: #9e9e9e;}</style>
+</textarea>
+<button onclick="nyimpen2()" class="tombolgelap" id="tombolgelapid"></button>
+<button onclick="ngapus2()"  class="tombolterang" id="tombolterangid"></button>
+
+
+
+
+
+
+<div class="kontenaplikasi"> <div class="tempatelemenonline" id="tempatelemenonlineid" hidden></div>
+<ul id="daftarisi">
+
+
+
+<li><a href='index2.html#halaman1'>اَلْمُقَدِّمَةُ</a></li>
+<li><a href='index2.html#halaman2'>اَلْأَصْلُ الْأَوَّلُ</a></li>
+<li><a href='index2.html#halaman3'>اَلْأَصْلُ الثَّانِيْ</a></li>
+<li><a href='index2.html#halaman4'>اَلْأَصْلُ الثَّالِثُ</a></li>
+<li><a href='index2.html#halaman5'>اَلْأَصْلُ الرَّابِعُ</a></li>
+<li><a href='index2.html#halaman6'>اَلْأَصْلُ الْخَامِسُ</a></li>
+<li><a href='index2.html#halaman7'>اَلْأَصْلُ السَّادِسُ</a></li>
+
+
+</ul>
+
+
+
+</div>
+
+
+
+
+<script>
+function aktifkan_elemen_harus_online() {
+	setTimeout(() => {
+		document.getElementById("tempatelemenonlineid").innerHTML += "<div class='intionline' id='intionlineid'> <button onclick='kelinkfirebase()'>Tsaqqova Digital Library</button> </div> <style>#tuknampilinlenid { display: block; } .intionline { border: 1px solid #c6ac91; padding: 10px; border-radius: 4px; background-image: url(./images/banner-perpus.png); background-position: center; background-size: cover; } .intionline > button:hover { opacity: 0.7; } .intionline > button:active { opacity: 0.5; } .intionline > button { animation: pentinge 4s infinite; margin: 0px; padding: 10px 15px; padding-left: 32px; color: #ffffff; border: none; border-radius: 4px; overflow: hidden; font-size: 14px; box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15); background-image: url(./images/perpus.svg); background-position: 5px center; background-repeat: no-repeat; background-size: 22px; min-height: 36px; } #tempatelemenonlineid { animation-name: animasiuntukhilangmuncul; animation-duration: 1s; } @keyframes animasiuntukhilangmuncul { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes pentinge { 0% {background-color:#1f8e85;} 25% {background-color:#244e4d;} 50% {background-color:#1f8e85;} 75% {background-color:#244e4d;} 100% {background-color:#1f8e85;} } </style>";
+		document.querySelector('#tempatelemenonlineid').hidden = false;
+	}, 500);
+}
+</script>
+
+
+</body>
+</html>
